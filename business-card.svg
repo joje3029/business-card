@@ -1,0 +1,74 @@
+<svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark code editor background -->
+  <rect width="500" height="300" rx="10" fill="#1e1e1e" stroke="#333" stroke-width="2"/>
+  
+  <!-- Code editor top bar -->
+  <rect x="0" y="0" width="500" height="30" rx="10" fill="#252526"/>
+  
+  <!-- Window buttons -->
+  <circle cx="20" cy="15" r="6" fill="#ff5f56"/>
+  <circle cx="40" cy="15" r="6" fill="#ffbd2e"/>
+  <circle cx="60" cy="15" r="6" fill="#27c93f"/>
+  
+  <!-- File name -->
+  <text x="250" y="20" font-family="Monaco, Consolas, monospace" font-size="14" fill="#ddd" text-anchor="middle">business_card.yml</text>
+  
+  <!-- YAML Content -->
+  <g transform="translate(30, 60)">
+    <!-- Line numbers -->
+    <text x="-15" y="0" font-family="Monaco, Consolas, monospace" font-size="14" fill="#6a737d">1</text>
+    <text x="-15" y="25" font-family="Monaco, Consolas, monospace" font-size="14" fill="#6a737d">2</text>
+    <text x="-15" y="50" font-family="Monaco, Consolas, monospace" font-size="14" fill="#6a737d">3</text>
+    <text x="-15" y="75" font-family="Monaco, Consolas, monospace" font-size="14" fill="#6a737d">4</text>
+    <text x="-15" y="100" font-family="Monaco, Consolas, monospace" font-size="14" fill="#6a737d">5</text>
+    <text x="-15" y="125" font-family="Monaco, Consolas, monospace" font-size="14" fill="#6a737d">6</text>
+    <text x="-15" y="150" font-family="Monaco, Consolas, monospace" font-size="14" fill="#6a737d">7</text>
+    <text x="-15" y="175" font-family="Monaco, Consolas, monospace" font-size="14" fill="#6a737d">8</text>
+    <text x="-15" y="200" font-family="Monaco, Consolas, monospace" font-size="14" fill="#6a737d">9</text>
+    
+    <!-- YAML Code -->
+    <text font-family="Monaco, Consolas, monospace" font-size="16" fill="#569cd6">personal:</text>
+    <text x="15" y="25" font-family="Monaco, Consolas, monospace" font-size="16">
+      <tspan fill="#9cdcfe">name</tspan>
+      <tspan fill="#ffffff">: </tspan>
+      <tspan fill="#ce9178">Pinocchio</tspan>
+    </text>
+    <text x="15" y="50" font-family="Monaco, Consolas, monospace" font-size="16">
+      <tspan fill="#9cdcfe">title</tspan>
+      <tspan fill="#ffffff">: </tspan>
+      <tspan fill="#ce9178">Ph.D. in Maths</tspan>
+    </text>
+    <text x="15" y="75" font-family="Monaco, Consolas, monospace" font-size="16">
+      <tspan fill="#9cdcfe">affiliation</tspan>
+      <tspan fill="#ffffff">: </tspan>
+      <tspan fill="#ce9178">Physics, POSTECH</tspan>
+    </text>
+    <text y="100" font-family="Monaco, Consolas, monospace" font-size="16" fill="#569cd6">contact:</text>
+    <text x="15" y="125" font-family="Monaco, Consolas, monospace" font-size="16">
+      <tspan fill="#9cdcfe">email</tspan>
+      <tspan fill="#ffffff">: </tspan>
+      <tspan fill="#ce9178">pinocchio@postech.ac.kr</tspan>
+    </text>
+    <text x="15" y="150" font-family="Monaco, Consolas, monospace" font-size="16">
+      <tspan fill="#9cdcfe">phone</tspan>
+      <tspan fill="#ffffff">: </tspan>
+      <tspan fill="#ce9178">010-1234-5678</tspan>
+    </text>
+    <text y="175" font-family="Monaco, Consolas, monospace" font-size="16" fill="#569cd6">social:</text>
+    <text x="15" y="200" font-family="Monaco, Consolas, monospace" font-size="16">
+      <tspan fill="#9cdcfe">github</tspan>
+      <tspan fill="#ffffff">: </tspan>
+      <tspan fill="#ce9178">pinocchio</tspan>
+    </text>
+    <text x="15" y="225" font-family="Monaco, Consolas, monospace" font-size="16">
+      <tspan fill="#9cdcfe">website</tspan>
+      <tspan fill="#ffffff">: </tspan>
+      <tspan fill="#ce9178">pinocchio.github.io</tspan>
+    </text>
+  </g>
+  
+  <!-- Cursor blinking effect -->
+  <rect x="270" y="285" width="8" height="16" fill="#ffffff">
+    <animate attributeName="opacity" values="0;1;1;0" dur="1.5s" repeatCount="indefinite" />
+  </rect>
+</svg>
